@@ -5,4 +5,4 @@ The echo flag is a shortcut to setting up SQLAlchemy logging, which is accomplis
 standard logging module. With it enabled, we’ll see all the generated SQL produced.
 If you are working through this tutorial and want less output generated, set it to False
 """
-engine = create_engine('sqlite:///:memory:', echo=True)
+engine = create_engine('sqlite:///:memory:', echo=False)

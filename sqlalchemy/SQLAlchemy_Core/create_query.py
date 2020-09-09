@@ -5,7 +5,7 @@ print("=== INSERT EXPRESSIONS ===")
 # Insert Expressions
 ins = users.insert()
 print(ins)
-ins = users.insert().values(name='oman',fullname='nyoman pradipta')
+ins = users.insert().values(name='jack',fullname='nyoman pradipta')
 print(ins)
 print(ins.compile().params)
 print("=" * 26 + '\n')
@@ -20,7 +20,7 @@ print("=" * 26 + '\n')
 
 # Executing Multiple Statements
 print("=== Executing Multiple Statements ===")
-result = conn.execute(users.insert(), name='lol',fullname='ahsiap')
+result = conn.execute(users.insert(), name='wendy',fullname='ahsiap')
 print(result.inserted_primary_key)
 conn.execute(addresses.insert(), [
     {'user_id': 1, 'email_address': 'jack@yahoo.com'},
