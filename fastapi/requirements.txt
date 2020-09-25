@@ -1,6 +1,7 @@
 Cython
 email-validator
 pydantic --no-binary pydantic
+python-multipart
 ujson
 orjson
 fastapi
