@@ -9,4 +9,7 @@ ujson
 orjson
 fastapi
 uvicorn
+aiofiles
+pytest
+requests
 devtools[pygments]

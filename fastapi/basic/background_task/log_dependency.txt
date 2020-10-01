@@ -1,0 +1,5 @@
+message to lol@gmail.com
+found query: asd
+message to lol@gmail.com
+found query: lol
+message to asu@gmail.com
