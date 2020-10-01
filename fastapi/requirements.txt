@@ -2,7 +2,11 @@ Cython
 email-validator
 pydantic --no-binary pydantic
 python-multipart
+SQLAlchemy
+databases[sqlite]
+bcrypt
 ujson
 orjson
 fastapi
 uvicorn
+devtools[pygments]
