@@ -10,6 +10,8 @@ orjson
 fastapi
 uvicorn
 aiofiles
+jinja2
+python-dotenv
 pytest
 requests
 devtools[pygments]
